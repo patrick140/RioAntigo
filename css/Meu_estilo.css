@@ -1,0 +1,22 @@
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: small;
+}
+
+p::first-letter{
+    color: black;
+    text-transform:uppercase;
+}
+
+.background {
+    background-color: rgb(158, 152, 151);
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  header{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
