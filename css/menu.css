@@ -1,0 +1,37 @@
+.hmenu {
+    background-color: blueviolet;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.hmenu ul {
+    list-style: square;
+    padding: 0;
+}
+
+.hmenu ul li {
+    display: inline;
+}
+
+.hmenu ul li a {
+    
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.hmenu ul li a:hover {
+    background-color: #ccf1ba;
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+
+}
+
+.hmenu ul li a:visited {
+    color: black;
+    font-family: fantasy;
+}
