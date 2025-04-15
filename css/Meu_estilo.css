@@ -1,6 +1,15 @@
+
+
+
+
 body {
-  background-color: rgb(90, 88, 81);
+  background-color: rgb(192, 188, 173);
 }
+
+.centralizar{
+  text-align: center;
+}
+
 
 p{
     font-family: Georgia, 'Times New Roman', Times, serif; 
@@ -13,13 +22,22 @@ p::first-letter{
     text-transform:uppercase;
 }
 
-.background {
+.background  {
     background-color: rgb(158, 152, 151);
     color: white;
     border: 2px solid black;
     margin: 20px;
     padding: 20px;
   }
+
+  .background-footer {
+    background-color: rgb(70, 68, 67); 
+    color: white; border: 2px solid black; 
+    margin: 20px; 
+    padding: 20px;
+  }
+
+  
 
   h1{
     /* text-align: center; */
