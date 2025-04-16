@@ -11,11 +11,11 @@ body {
 }
 
 
-p{
+/* p{
     font-family: Georgia, 'Times New Roman', Times, serif; 
     font-size: small;
     margin: 10px;
-}
+} */
 
 p::first-letter{
     color: black;
