@@ -27,20 +27,63 @@
             </nav>
         </div>
     </header>
-    <main>
-        <div>
-            <h1 class="centralizar">Contatos</h1>
+    <main class="conteudo-principal">
+        <div class="titulo-principal">
+            <h2>Converse conosco</h2>
         </div>
-        <section class="centralizar">
-       <img src="img/paginaemconstrucao.jpg" alt="Pagina em construção">
-    </section>
+
+        <div>
+            <form name="frmContato" id="idContato" action="#" method="POST">
+                <div>
+                <label for="idNome">Nome</label>
+                </div>
+                <input id="idNome" type="text" name="nome" maxlength="70" placeholder="Digite seu nome" required>
+
+                <div>
+                <label for="idEmail">E-mail</label>
+                </div>
+                <input id="idEmail" type="email" name="email" maxlength="100" placeholder="Digite seu e-mail" required>
+
+                <div>
+                <label for="idTelefone">Telefone</label>
+                </div>
+                <input id="idTelefone" type="tel" name="telefone" placeholder="Digite seu telefone" required>    
+
+                <div>
+                <label>Gênero</label>
+                </div>
+                <input id="idGeneroF" type="radio" name="genero" value="F"><label for="idGeneroF">Feminino</label>
+                <input id="idGeneroM" type="radio" name="genero" value="M"><label for="idGeneroM">Masculino</label>
+                <input id="idGeneroO" type="radio" name="genero" value="O"><label for="idGeneroO">Outros</label>
+
+                <div>
+                    <label for="idAssunto">Assunto</label>
+                </div>
+                <select name="assunto" id="idAssunto">
+                    <option value="0" selected>Selecione...</option>
+                    <option value="E">Elogio</option>
+                    <option value="C">Critica</option>
+                    <option value="S">Solicitação</option>
+                    <option value="0">Selecione...</option>
+                </select>
+                <div>
+                    <label id="idMensagem">Mensagem</label>
+                </div>
+                <textarea name="mensagem" id="idMensagem" cols="200" rows="10" placeholder="Preencha com a mesagem desejada"></textarea>
+
+                <div>
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="enviar">
+                </div>
+            </form>
+        </div>
     </main>
     <br>
     <br>
     <br>
     <br>
     <footer>
-        <section style="background-color: rgb(70, 68, 67); color: white; border: 2px solid black; margin: 20px; padding: 20px;">
+        <section  class="rodape-principal">
         <h1 class="centralizar">Patrick Loureiro Monteiro de Araújo</h1>
         <p style="text-align: center;">Email: patrickloureiro14@gmail.com</p>
         <p style="text-align: center;">Tel: (21) 98672-0800</p>
